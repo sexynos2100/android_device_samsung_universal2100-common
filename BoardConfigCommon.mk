@@ -100,6 +100,14 @@ TARGET_USERIMAGES_USE_F2FS := true
 # Fingerprint
 TARGET_SEC_FP_REQUEST_FORCE_CALIBRATE := true
 
+## Graphics
+TARGET_USES_VULKAN := true
+
+## Kernel
+BOARD_KERNEL_IMAGE_NAME := Image
+TARGET_KERNEL_NO_GCC := true
+TARGET_KERNEL_SOURCE := kernel/samsung/exynos9820
+
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image
 TARGET_KERNEL_SOURCE := kernel/samsung/universal2100
