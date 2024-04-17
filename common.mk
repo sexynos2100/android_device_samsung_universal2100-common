@@ -114,7 +114,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.samsung
+    android.hardware.biometrics.fingerprint-service.samsung
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
@@ -280,7 +280,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/samsung \
     hardware/samsung_slsi/interfaces \
     hardware/samsung/aidl/power-libperfmgr \
-    hardware/samsung_slsi-linaro/exynos/gralloc4
+    hardware/samsung_slsi-linaro/exynos/gralloc4 \
 
 # Memtrack
 PRODUCT_PACKAGES += \
